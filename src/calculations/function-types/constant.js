@@ -1,0 +1,1 @@
+module.exports = (constant, weights = null) => constant;

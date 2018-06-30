@@ -1,0 +1,1 @@
+module.exports = (input, weights) => weights[0] + (Math.tanh(input * weights[1] - weights[2]) / weights[3]);

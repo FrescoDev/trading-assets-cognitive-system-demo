@@ -1,0 +1,1 @@
+module.exports = (input, weights) => weights[0] * input + weights[1];

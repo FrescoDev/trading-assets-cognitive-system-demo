@@ -1,0 +1,1 @@
+module.exports = (base, number) => Math.log(number) / Math.log(base)

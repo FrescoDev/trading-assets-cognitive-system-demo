@@ -1,0 +1,24 @@
+{
+  "extends": ["eslint:recommended"],
+  "ecmaFeatures": {
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "import",
+    "babel"
+  ],
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "babel/generator-star-spacing": 1,
+    "babel/new-cap": 1,
+    "babel/no-await-in-loop": 1
+  }
+}
